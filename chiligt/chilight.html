@@ -1,20 +1,92 @@
-<!DOCTYPE html>
-<html>
-    <center>
-<img src="banner.png" alt="om" height="150" width="1000">
-</center>
 
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
-        <meta charset="utf-8">
-        <title>Chilight</title>
-        <link rel="stylesheet" href="chilight.css">
-    </head>
-    <body>
-        
-        <h1>GETTING STARTED WITH BRACKETS</h1>
-        <h2>This is your guide!</h2>
-        
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Chilight 2017</title>
+    <link rel="stylesheet" href="festival.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <script src="festival.js" type="text/javascript"></script>
+  </head>
+  <body>
+  	<div class="container">
+   		<header>
+   			<h1>Chilight Chicago</h1>
+   			<div id="date-loc">
+   				<h2>June 22-24 2017</h2>
+   				<h2>Grand Park,Chicago,Illinois</h2>
+   			</div>
+   		</header>
+   		<nav>
+   			<button class="toggle-menu" onclick="toggleMenu('main-menu');">
+                <span></span> <!-- each span is a line in the hamburger icon --> 
+                <span></span>
+                <span></span>
+            </button>
+   			<ul id="main-menu">
+   				<li><a href="#">Lineup</a></li>
+   				<li class="dropdown"><a href="#">Passes</a>
+                   <ul id="submenu">
+                       <li><a href="#">Regular</a></li>
+                       <li><a href="#">Friend</a></li>
+                       <li><a href="#">Sponsor</a></li>
+                    </ul> 
+                </li> <!-- closes dropdown li -->
+   				<li><a href="#">Info</a></li>
+   				<li><a href="#">Getting There</a></li>
+   				<li><a href="#">Merch</a></li>
+   				<li><a href="#">Media</a></li>
+   				<li><a href="#">Partners</a></li>
+   			</ul>
+   		</nav>
+   		<div id="slideshow">
+   			<img src="http://placehold.it/960x250" alt="slideshow">
+   		</div>
+   		<div id="content">
+   			<div id="lineup">
+   				<h3>Lineup</h3>
+   				<ul>
+   					<li><a href="#">Coldplay</a></li>
+   					<li><a href="#">Greenday</a></li>
+   					<li><a href="#">Selena Gomez</a></li>
+   					<li><a href="#">Justin Bieber</a></li>
+   					<li><a href="#">Lady Gaga</a></li>
+   					<li><a href="#">Foo Figthers</a></li>
+   					<li><a href="#">Taylor Swift</a></li>
+   					<li><a href="#">Demi Lovato</a></li>
+   					<li><a href="#">The Weekend</a></li>
+   					<li><a href="#">Imagine Dragons</a></li>
+                    <li><a href="#">Paramore</a></li>
+   				</ul>
+   			</div> <!-- #lineup -->
+   			<section id="news">
+   				<h3>Latest News</h3>
+   				<article><h4><span class="news-date">8.05.16 </span><a href="#">News article title 1</a></h4></article>
+   				<article><h4><span class="news-date">9.12.16 </span><a href="#">News article title 2</a></h4></article>
+   				<article><h4><span class="news-date">10.03.16 </span><a href="#">News article title 3</a></h4></article>
+   				<article><h4><span class="news-date">11.04.16 </span><a href="#">News article title 4</a></h4></article>
+   			</section>
+		</div> <!-- #content -->
+		<div id="sidebar">
+			<aside id="mailing-list">
+				<form action="#">
+		  			<input type="email" name="email" id="email" value="Email Address">
+		  			<input type="submit" value="Subscribe">
+				</form>
+			</aside>
+			<aside id="app">
+				<p><a href="#">Download the 2017 app</a></p>
+			</aside>
+	   		<aside id="direction">
+                <h4>Getting There</h4>
+	   			  <a href="#"><img src="http://placehold.it/400x400" alt="festival map"></a>
+	   		</aside>
+   		</div> <!-- #sidebar -->
+   		<footer>
+   			<p>Copyrights &#169; 2016 Rockfest NY | <a href="#">Privacy policy</a> | <a href="#">Terms of Use</a></p>
+   		</footer>  		
+   	</div> <!-- #container -->
     </body>
     <footer>Copyright Chilight 2017. All rights reserved<footer/>
 </html>
