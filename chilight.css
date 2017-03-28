@@ -1,0 +1,80 @@
+
+body{
+  background-image: url("festi.jpg");
+  background-attachment:fixed;
+  background-color: black;
+  background-position: center;
+}
+
+header {
+      text-align:center;
+    font-family: 'Orbitron', sans-serif;
+    color:black;
+    font-size: 25px;
+     text-shadow: 5px 5px white;
+
+}
+
+    h2{
+
+    outline-style: groove;
+    outline-color: #667bb7; 
+    outline-width: 12px;
+    
+    }
+    
+    #logo {
+        text-align: center;
+    }
+    
+    p{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 15px;
+    }
+    h3{
+        
+        
+        font-family: 'Righteous', bold;
+        font-size:25px; 
+        word-spacing: 45px;
+        text-shadow: 2px 1px white;
+        
+        text-align: center;
+        text-decoration: none;
+        background-color: #3d4c77;
+
+
+    }
+    #lineup a{
+ text-decoration: none;
+ color: black;
+
+
+
+    }
+    h4{
+        background-color: black;
+        font-family: 'Righteous', bold;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+
+    } 
+
+    #chicago{
+        outline-style: groove;
+    outline-color: #667bb7; 
+    outline-width: 12px;
+    }
+
+    #map{
+
+        text-align: center;
+
+    } 
+footer {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color:black;    
+    background-color: #3d4c77;
+    }   
