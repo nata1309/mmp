@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chilight 2017</title>
+    <link rel="stylesheet" href="chilight.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
+   <script src="chilight.js" type="text/javascript"></script> 
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #426193;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    font-family: 'Righteous', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #263766;
+    outline-style: groove;
+    outline-color: white; 
+    outline-width: 8px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6376ca;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(#a9d7f2,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #0e2156;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  
+}
+
+.dropdown-content a:hover {background-color: #6376aa}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<ul>
+  <li><a href="#home">Contact Us</a></li>
+  <li><a href="#news">About</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Tickets</a>
+    <div class="dropdown-content">
+      <a href="#">VIP</a>
+      <a href="#">Platinum</a>
+      <a href="#">General Admission</a>
+      <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Information</a>
+    <div class="dropdown-content">
+      <a href="#">How to get there</a>
+      <a href="#">Media</a>
+      <a href="#">Past Lineups</a>
+    </div>
+  </li>
+</ul>
+  		<header>
+   			<h1>June 22-24 2017</h1>
+   			<div id="date-loc">
+   				<h2>Grand Park | Chicago,Illinois</h2>
+   				<div id="logo">
+        <img src="chilight.png" alt="logo" height="200" width="352">
+   			</div>
+   		</header>
+   		</div>
+          <h3> 
+   		<div id="content">
+   			<div id="lineup">
+   				 
+   					<a href="#">Coldplay</a>
+   					<a href="#">Greenday</a>
+   					<a href="#">SelenaGomez</a>
+   					<a href="#">JustinBieber</a>
+   					<a href="#">LadyGaga</a>
+   					<a href="#">FooFigthers</a>
+   					<a href="#">TaylorSwift</a>
+   					<a href="#">DemiLovato</a>
+   					<a href="#">TheWeekend</a>
+   					<a href="#">ImagineDragons</a>
+            <a href="#">Paramore</a>
+   				
+            		</h3>
+		</div> <!-- #content -->
+		<div id="sidebar">
+			<aside id="mailing-list">
+				<form action="#">
+		  			<input type="tickets" name="tickets" id="ticket" value="How many tickets?">
+		  			<input type="submit" value="Get Tickets">
+				</form>
+			</aside>
+      <h4>
+   
+      <div id="chicago">
+       <p> Do not miss this great opportunity
+        to make friends with your
+       same music taste! 
+      Chilight is the event 
+      everyone is talking about 
+      and you can be part of it </p>
+   
+        <img src="chicago.png" alt="logo" height="200" width="302">
+        <img src="map.png" alt="map" height="200" width="302">
+        <img src="musi.jpg" alt="festt" height="200" width="302">
+        <img src="mii.jpg" alt="otr" height="200" width="302">
+        
+        
+        </div>
+ 
+
+      </h4>
+
+   		<footer>
+        <style>.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+border-radius:50%;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+  border-radius:50%;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+  border-radius:50%;
+}
+</style>
+    </head>
+  <body>
+  <nav class="social">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-vimeo"></a>
+<a href="#" class="fa fa-tumblr"></a>
+<a href="#" class="fa fa-vine"></a>
+</nav>     
+   			<footer>
+        <p>Copyright &#169; 2017 Chilight Chicago | <a href="#">Privacy policy</a> | <a href="#">Terms of Use</a></p>
+   		</footer>  		
+   	</div> 
+    </body>
+</html>
+ 
