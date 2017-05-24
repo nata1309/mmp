@@ -1,0 +1,44 @@
+body {
+	background-image: url('../ny.jpg');
+	
+}
+
+h1 {
+color:white;	
+font-family: 'Kumar One', cursive;
+}
+
+.navbar {
+	padding-top: 50px;
+	background-color: #284168;
+}
+
+.row{
+text-align: center;
+	margin-top: 10px;
+}
+
+footer {
+background-color: #284168;
+text-align: center;
+font-family: 'Varela Round', sans-serif;
+color: white;	
+}
+
+.info {
+	padding-top: 90px;
+	color: white;
+font-family: 'Kumar One', cursive;
+}
+
+.img-circle {
+	margin-top: -50px;
+}
+.input-group{
+padding-top: 8px;
+}
+
+h2 {
+font-size:21px;    
+font-family: 'Ravi Prakash', cursive;
+}
